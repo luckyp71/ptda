@@ -1,0 +1,6 @@
+.idea
+build 
+dist
+PtDa.egg-info
+README_pypi.md
+setup.py
