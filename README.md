@@ -53,3 +53,20 @@ Well the **cn_df** method has one optional argument, i.e. **n_bin**, so if you h
 
 ![iv_result](assets/iv_results.PNG)
 
+#### Permutation
+**pmr** is a function to calulcate permutation with repetition and form the possible arrangement as a result.
+This function takes two arguments i.e. x and r, where x is a set of objects and r is number of objects selected.
+
+Let's assume that we have has_email and has_phone_number fields, both of them contains
+flag 'y' and 'n'. So in this example we have 2 objects ('y' and 'n') and we're going to select 2 objects as well (for has_email and has_phone number)
+![import_lib](assets/import_ptda_gen.PNG)
+
+![flag_data](assets/flag_data.PNG)
+
+Here is the output for x=2 and r=2. The permutation with repetition is 4.
+![pmr2](assets/pmr_2_objects_selected.PNG)
+
+Now, what if we would like to add another flag field i.e. has_dependant?
+It's easy, just change our **r** into 3, so the permutation with repetition is 8.
+![pmr3](assets/pmr_3_object_selected.PNG)
+
