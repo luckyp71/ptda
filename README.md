@@ -64,7 +64,7 @@ flag 'y' and 'n'. So in this example we have 2 objects ('y' and 'n') and we're g
 ![flag_data](assets/flag_data.PNG)
 
 Here is the output for x=2 and r=2. The permutation with repetition is 4.
-![pmr2](assets/pmr_2_objects_selected.PNG)
+![pmr2](assets/pmr_2_object_selected.PNG)
 
 Now, what if we would like to add another flag field i.e. has_dependant?
 It's easy, just change our **r** into 3, so the permutation with repetition is 8.
